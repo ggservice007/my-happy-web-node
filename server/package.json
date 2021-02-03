@@ -1,0 +1,29 @@
+{
+  "name": "my_happy_web_node",
+  "version": "0.0.1",
+  "description": "My Happy Web Node",
+  "main": "./app.js",
+  "repository": "https://github.com/ggservice007/my-happy-web-node",
+  "dependencies": {
+    "kcors": "^2.2.2",
+    "koa": "2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compress": "^5.0.1",
+    "koa-convert": "^2.0.0",
+    "koa-helmet": "^6.0.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "babel-plugin-transform-export-extensions": "^6.22.0"
+  },
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "start-release": "pm2 start --interpreter babel-node ./app.js --name my-happy-web-node"
+  }
+}
