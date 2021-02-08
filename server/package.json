@@ -1,6 +1,6 @@
 {
   "name": "my_happy_web_node",
-  "version": "0.0.5",
+  "version": "0.0.4",
   "description": "My Happy Web Node",
   "main": "./app.js",
   "repository": "https://github.com/ggservice007/my-happy-web-node",

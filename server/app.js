@@ -76,7 +76,7 @@ router.post('/bokeh-extra-resource', async(ctx, next) => {
 router.post('/bokeh-template-path', async(ctx, next) => {
   ctx.body = {
     "relative": 'boken_template/@0.0.1',
-    "absolute": path.resolve('work_directory/boken_template/@0.0.1')
+    "absolute": path.resolve('work_directory/bokeh_template/@0.0.1')
   };
 });
 
