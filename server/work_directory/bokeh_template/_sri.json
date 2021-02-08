@@ -1,0 +1,20 @@
+{
+  "2.2.3": {
+    "@2.2.3/bokeh.js": "bkHjrmFJ+coIE0tv04hnGa71h4Lwc5/kEJVZbuM/Yr04kPQrk+jV7h1THcfairL0",
+    "@2.2.3/bokeh.legacy.js": "0fgKpIOQQXH0P3/Th8CiROWKU0Lg43TE4BJKi6tD+Wj79lc/5yux7m+UNnt4xAF8",
+    "@2.2.3/bokeh.legacy.min.js": "poNwnGTpdWC5Tm+mAyUp24ZZDi5d5G0hGQUV5jjue6cMRPFQXsNr0q6U7Yq9/1L0",
+    "@2.2.3/bokeh.min.js": "T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM",
+    "@2.2.3/bokeh-api.js": "+c5LMcCH61k0eCWx4GqRXr+EDD4Wx2WRVBPkst0U2jlFNBHhqzOk/5tt+KlEBkj1",
+    "@2.2.3/bokeh-api.legacy.js": "uBvMNJKz4Oj5psUXjf0gg0iA5KzHSnR8cm7SccR07nlDRGCBq1yz0UfCm3Xv2w29",
+    "@2.2.3/bokeh-api.legacy.min.js": "LbWq3R9lLiXXw/9l7m2LiRFhyOAegMc3+sxfvTs0QY26ue5jeFlxXvZRWazHUGB7",
+    "@2.2.3/bokeh-api.min.js": "eT3dNscgjXmsGsM0ZO+nTwoL2BpJeNQnXH8gmXJmnEjqTb0ZV7c3jJ27FFe/oh1N",
+    "@2.2.3/bokeh-tables.js": "WBroUs+sy3ov8dGzyI1yMN5rnbJ3lLhoYII+kEO5Ty6stoe1KvyOjBH7bV+0Fe1N",
+    "@2.2.3/bokeh-tables.legacy.js": "QVa86fSzrG1C2MK1icWWBZW22TSNCg/qMJCkz27V/O6JWubJVVqT5n5f21sLXxPZ",
+    "@2.2.3/bokeh-tables.legacy.min.js": "pQuLaTHjeX6Jix9ijAPnGstoMSqIg7VigOUOtC4L3UIGoRQwY4m3I2uTxPg3Q49k",
+    "@2.2.3/bokeh-tables.min.js": "89bArO+nlbP3sgakeHjCo1JYxYR5wufVgA3IbUvDY+K7w4zyxJqssu7wVnfeKCq8",
+    "@2.2.3/bokeh-widgets.js": "MHrCce1X9Kh65F45SS4FMgl6u8lKUfWP+TmHXRR42CJXeotpPK21xw7Rre0xQ/A/",
+    "@2.2.3/bokeh-widgets.legacy.js": "2Pk7Nt9MH2oFp/tm7MI+QHydRmrhxtqW/hJFAwFn6icPuPw8Afj+SPSc09XcDeYv",
+    "@2.2.3/bokeh-widgets.legacy.min.js": "NkexJSiMei5zd/r9kQUyp1VarioNDSSFfeoGRUUOdS7rXQKbf/dfGEYtncGm/Zpp",
+    "@2.2.3/bokeh-widgets.min.js": "98GDGJ0kOMCUMUePhksaQ/GYgB3+NH9h996V88sh3aOiUNX3N+fLXAtry6xctSZ6"
+  }
+}

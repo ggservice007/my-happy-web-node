@@ -27,7 +27,18 @@ app.use(koaBody({
   formLimit: '2048mb',
   textLimit: '2048mb'
 }));
-app.use(helmet());
+
+app.use(helmet.dnsPrefetchControl());
+app.use(helmet.expectCt());
+//app.use(helmet.frameguard());
+app.use(helmet.hidePoweredBy());
+app.use(helmet.hsts());
+app.use(helmet.ieNoOpen());
+app.use(helmet.noSniff());
+app.use(helmet.permittedCrossDomainPolicies());
+app.use(helmet.referrerPolicy());
+app.use(helmet.xssFilter());
+//app.use(helmet());
 app.use(compress());
 
 app.use(serve(path.join(__dirname, './public/resource')));
@@ -45,12 +56,40 @@ router.all('/', async (ctx, next) => {
     };
 });
 
+router.post('/bokeh-extra-resource', async(ctx, next) => {
+  const lst_js = [];
+  const lst_css = [];
+
+  lst_js.push({
+    name: 'axios',
+    version: '0.20.0',
+    file_name: 'axios.min.js',
+    url: '/javascript/axios/@0.20.0/axios.min.js'
+  });
+
+  ctx.body = {
+    "extra_js":  lst_js,
+    "extra_css": lst_css
+  };
+});
+
+router.post('/bokeh-template-path', async(ctx, next) => {
+  ctx.body = {
+    "relative": 'boken_template/@0.0.1',
+    "absolute": path.resolve('work_directory/boken_template/@0.0.1')
+  };
+});
+
+/**
+The following subdirectories are in the public_work.
+bokeh
+*/
 router.post('/work-directory-path', async(ctx, next) => {
   ctx.body = {
-    "relative": 'work_directory/public_work',
+    "relative": 'public_work',
     "absolute": path.resolve('work_directory/public_work')
   };
-})
+});
 
 app.use(router.routes());
 app.use(router.allowedMethods());
